@@ -19,10 +19,9 @@ To be able to run this script on your machine please:
 
 # Use script
 
-You can start analyzing webserver logs by runnig: 
-    - (The repo comes with two sample log files inside the data folder)
+You can start analyzing webserver logs by runnig: (The repo comes with two sample log files inside the data folder)
     
-    $ ruby lib.interface
+    $ ruby lib/interface.rb
 
 You can analyze additional logs by adding a logfile to the data folder.
 
