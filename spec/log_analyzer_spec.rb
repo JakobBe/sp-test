@@ -23,6 +23,14 @@ RSpec.describe LogAnalyzer do
     it 'dose not break' do
       expect(log_analyzer_with_bad_logs).to be_truthy
     end
+
+    it 'most page views returns only information about correct rows' do
+      expect(log_analyzer_with_bad_logs.most_page_views.length).to eq(1)
+    end
+
+    it 'most uniq views returns only information about correct rows' do
+      expect(log_analyzer_with_bad_logs.most_uniq_views.length).to eq(1)
+    end
   end
 
   context 'is instantiated with a correct log array' do
