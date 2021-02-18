@@ -20,7 +20,7 @@ To be able to run this script on your machine please:
 # Use script
 
 You can start analyzing webserver logs by runnig: 
-  (The repo comes with two sample log files inside the data folder)
+    - (The repo comes with two sample log files inside the data folder)
     
     $ ruby lib.interface
 
@@ -28,7 +28,7 @@ You can analyze additional logs by adding a logfile to the data folder.
 
 # Tests
 
-The developemt of the script was test-driven. Modlues and Classes used in this script are fully tested by unit test. However, there are no end-to-end tests yet to test the user interface.
+The developemt of the script was test-driven. Modules and Classes used in this script are fully tested by unit tests. However, there are no end-to-end tests yet to test the user interface.
 
 To start the tests run:
 
